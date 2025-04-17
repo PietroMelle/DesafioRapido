@@ -35,14 +35,14 @@ function Page4() {
   }
 
   function escolherPrato(e) {
-    const prato = e.target.value 
-    const encontrarPrato = pedido.find(pratoArray => pratoArray === prato)
-    if (encontrarPrato) {
-      const novosPratos = pedido.filter((conteudo) => conteudo !== prato)
-      setPedido(novosPratos)
-    } else {
-      const novosPratos = [...pedido, prato]
-      setPedido(novosPratos)
+    const pratoSelecionado = e.target.value // Valor do select escolhido (clicado)
+    const encontrarPrato = pedido.find(pratoArray => pratoArray === pratoSelecionado) // Verifica se o pratoSelecionado está na array (armazendando true se tiver ou false se não tiver)
+    if (encontrarPrato) { // Se for true => tiver na array
+      const novosPratos = pedido.filter((conteudo) => conteudo !== pratoSelecionado)  // Cria uma nova array (filtra) com a condição indicada, no caso, se o prato for diferente do prato escolhido
+      setPedido(novosPratos)  // Salvar na variável
+    } else {  // Se for false => não tiver na array
+      const novosPratos = [...pedido, pratoSelecionado] // Criar uma nova array com o prato selecionado
+      setPedido(novosPratos)  // Salvar na variável
     }
   }
 
