@@ -46,23 +46,23 @@ function Home() {
           estrela="⭐⭐⭐⭐⭐"
         />
 
-        <Card
-          imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8SofOZHMjOuyes_ICN-LM8SPrUEsoPIj24A&s"
-          nomeLugar="Pizza"
-          breveDescricao="Massa leve, borda crocante e recheio que transborda sabor.
-          A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
-          direcionar="http://localhost:5173/pizza"
-          estrela="⭐⭐⭐⭐⭐"
-        />
+                <Card
+                    imagem= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8SofOZHMjOuyes_ICN-LM8SPrUEsoPIj24A&s"
+                    nomeLugar= "Pizza"
+                    breveDescricao= "Massa leve, borda crocante e recheio que transborda sabor.
+A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
+                    direcionar= "http://localhost:5173/paris-franca"
+                    estrela = "⭐⭐⭐⭐"
+                />
 
-        <Card
-          imagem="https://gourmetdemexico.com.mx/wp-content/uploads/2015/11/food-porn-hamburguesa.jpg"
-          nomeLugar="Hamburguer"
-          breveDescricao="Hambúrguer suculento, queijo derretendo e muito sabor em cada mordida.
-          Pede agora e deixa a explosão de sabor chegar até você! 🍔"
-          direcionar="http://localhost:5173/hamburguer"
-          estrela="⭐⭐⭐⭐⭐"
-        />
+                <Card
+                    imagem= "https://gourmetdemexico.com.mx/wp-content/uploads/2015/11/food-porn-hamburguesa.jpg"
+                    nomeLugar= "Hamburguer"
+                    breveDescricao= "Hambúrguer suculento, queijo derretendo e muito sabor em cada mordida.
+Pede agora e deixa a explosão de sabor chegar até você! 🍔"
+                    direcionar= "http://localhost:5173/disney-eua"
+                    estrela= "⭐⭐⭐⭐⭐"
+                />
 
       </section>
 
