@@ -1,22 +1,27 @@
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navbar from "../components/NavBar"
+import Navbar from "../components/NavBar";
 
 function Page3() {
   return (
     <>
       <Header />
-      <Navbar hamburguer="ativo"/>
+      <Navbar hamburguer="ativo" />
 
       <br />
       <br />
 
       <center>
-      <section className="tituloECard">
-        <h1> Hambúrguer </h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png" alt="Alemanha" />
+
+        <section className="tituloECard">
+          <h1> Hambúrguer </h1>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png"
+            alt="Alemanha"
+          />
         </section>
+
         <Card
           Foto="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2020/05/28/shutterstock1471297691-768x539.jpg"
           Titulo="Hambúrguer"
@@ -31,9 +36,8 @@ function Page3() {
 
       <br />
       <br />
-      <br />
 
-      <Footer />
+      <Footer />     
     </>
   );
 }
