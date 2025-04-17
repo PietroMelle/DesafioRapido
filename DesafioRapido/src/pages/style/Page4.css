@@ -3,15 +3,15 @@
     justify-content: center;
     border: black solid 2px;
     border-radius: 1em;
-    background-color: #E6E6E6;
+    background-color: #F2B138;
     width: 26vw;
     padding: 2em;
-    height: 30em;
+    height: 35em;
     align-items: center;    
 }
 
 .botao{
-    background-color: #12CDD4;
+    background-color: #BF2626;
     padding: 0.7em;
     border-radius: 10px;
     border: solid black 0.1em;
@@ -27,4 +27,9 @@
 .genero{
     display: flex;
     gap: 0.2em;
+}
+
+.input{
+    padding: 0.5em;
+    border-radius: 25px;
 }

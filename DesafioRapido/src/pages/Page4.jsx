@@ -62,7 +62,7 @@ function Page4() {
           <form onSubmit={handleSubmit}>
             Nome:
             <br/>
-            <input
+            <input className="input"
               type="text"
               placeholder="Digite seu nome"
               value={nome}
@@ -74,7 +74,7 @@ function Page4() {
 
             Email:
             <br/>
-            <input
+            <input className="input"
               type="email"
               placeholder="Digite seu email"
               value={email}
@@ -87,7 +87,7 @@ function Page4() {
             Gênero:
             <label className="genero">
               <br/>
-              <input
+              <input className="input"
                 type="radio"
                 value="Masculino"
                 checked={genero === "Masculino"}
@@ -95,7 +95,7 @@ function Page4() {
               />
               Masculino
               
-              <input
+              <input className="input"
                 type="radio"
                 value="Feminino"
                 checked={genero === "Feminino"}
@@ -108,7 +108,7 @@ function Page4() {
 
             Escolaridade:
             <br/>
-            <select value={escolaridade} onChange={(e) => setEscolaridade(e.target.value)}>
+            <select className="input" value={escolaridade} onChange={(e) => setEscolaridade(e.target.value)}>
               <option value=""> Selecione sua escolaridade </option>
               <option value="Ensino Fundamental Incompleto"> Ensino Fundamental Incompleto </option>
               <option value="Ensino Fundamental Completo"> Ensino Fundamental Completo </option>
@@ -116,6 +116,8 @@ function Page4() {
               <option value="Ensino Médio Completo"> Ensino Médio Completo </option>
               <option value="Curso Superior Incompleto"> Curso Superior Incompleto </option>
               <option value="Curso Superior Completo"> Curso Superior Completo </option>
+              <option value="Pós-Graduação"> Pós-Graduação </option>
+
             </select>
 
             <br />
@@ -124,7 +126,7 @@ function Page4() {
             <label>
               Telefone:
               <br/>
-              <input
+              <input className="input"
               type="tel"
               value={telefone}
               placeholder="Digite seu telefone"
@@ -140,8 +142,10 @@ function Page4() {
               <br/>
               <input type="checkbox" value="Pedido1" onChange={(e) => escolherPrato(e)}/>
               <label> Prato 1 </label>
+              <br/>
               <input type="checkbox" value="Pedido2" onChange={(e) => escolherPrato(e)}/>
               <label> Prato 2</label>
+              <br/>
               <input type="checkbox" value="Pedido3" onChange={(e) => escolherPrato(e)}/>
               <label> Prato 3 </label>
             </label>
