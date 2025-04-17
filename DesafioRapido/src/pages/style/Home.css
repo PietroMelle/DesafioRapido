@@ -24,8 +24,8 @@
 #bandeira {
     background-color: #f29e38;
     padding: 0em 1em 0em 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;   {/* Arredondar o canto superior direito */}
+    border-bottom-right-radius: 1em; {/* Arredondar o canto inferior direito */}
 }
 
 /* Palavras em Azul */

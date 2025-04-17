@@ -30,7 +30,7 @@ function Page3() {
 
           Valor="Valor: R$ 105,50"
           Proximo="Proximo"
-          Link="http://localhost:5173/contato"
+          Link="http://localhost:5173/macarrao"
         />
       </center>
 

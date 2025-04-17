@@ -49,7 +49,7 @@ function Page4() {
   return (
     <>
       <Header />
-      <Navbar newyork="ativo" />
+      <Navbar contato="ativo" />
       <br />
       <br />
 
