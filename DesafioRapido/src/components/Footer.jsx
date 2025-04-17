@@ -88,7 +88,7 @@ function Footer() {
 
             <br />
 
-            <a href="https://www.burgerking.com.br/" target="_blank"> Burguer Kink </a>
+            <a href="https://www.burgerking.com.br/" target="_blank"> Burguer King </a>
 
             <br />
 
