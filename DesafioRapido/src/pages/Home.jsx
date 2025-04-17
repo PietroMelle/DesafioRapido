@@ -30,7 +30,7 @@ function Home(){
                     nomeLugar= "Macarão"
                     breveDescricao= "Macarrão cremoso, cheio de sabor e feito com aquele toque especial.
 Bateu a fome? Pede o seu e deixa a gente cuidar do resto! 🍝"
-                    direcionar= "http://localhost:5173/interlaken-suica"
+                    direcionar= "http://localhost:5173/macarrao"
                     estrela= "⭐⭐⭐⭐⭐"
                 />
 
@@ -39,8 +39,8 @@ Bateu a fome? Pede o seu e deixa a gente cuidar do resto! 🍝"
                     nomeLugar= "Pizza"
                     breveDescricao= "Massa leve, borda crocante e recheio que transborda sabor.
 A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
-                    direcionar= "http://localhost:5173/paris-franca"
-                    estrela = "⭐⭐⭐⭐"
+                    direcionar= "http://localhost:5173/pizza"
+                    estrela = "⭐⭐⭐⭐⭐"
                 />
 
                 <Card
@@ -48,7 +48,7 @@ A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
                     nomeLugar= "Hamburguer"
                     breveDescricao= "Hambúrguer suculento, queijo derretendo e muito sabor em cada mordida.
 Pede agora e deixa a explosão de sabor chegar até você! 🍔"
-                    direcionar= "http://localhost:5173/disney-eua"
+                    direcionar= "http://localhost:5173/hamburguer"
                     estrela= "⭐⭐⭐⭐⭐"
                 />
 
