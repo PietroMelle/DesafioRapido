@@ -5,12 +5,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 1em;
 
     /* Tamanho */
     height: 20vh;
 
     /* Estilização */
-    background-color: #CDFBF1;
+    background-color: #72061a;
 }
 
 /* Logo */
@@ -28,8 +29,8 @@
 
 /* Título */
 .headerBox h1 {
-    color: #2D9BF0;
-    font-size: 4em;
+    color: #f2b138;
+    font-size: 4.2em;
     transition: all 1s ease;
     font-family: "Sriracha", cursive;
 }
@@ -43,6 +44,7 @@
     width: auto;
     height: 9vh;
     transition: all 1s ease;
+    padding: 1.5em;
 }
 
 .imgGithub:hover {

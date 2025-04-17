@@ -2,8 +2,6 @@ import "./CardHome.css"
 import { useState } from "react"
 
 
-
-
 function Card (props) {
 
     const [curtir, setCurtir] = useState("Curtir")
