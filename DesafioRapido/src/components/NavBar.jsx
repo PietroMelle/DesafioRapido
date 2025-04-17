@@ -6,13 +6,13 @@ function Navbar(props) {
     <nav className="blocoNav">
       <Link className="fonte" id="link" to="/"> <span id={props.home}>Home 🏡</span> </Link>
 
-      <Link className="fonte" id="link" to="/macarrao"> <span id={props.macarrao}>Suiça 🛫</span> </Link>
+      <Link className="fonte" id="link" to="/macarrao"> <span id={props.macarrao}>Macarão 🍝</span> </Link>
 
-      <Link className="fonte" id="link" to="/pizza"> <span id={props.pizza}>França 🛬</span> </Link>
+      <Link className="fonte" id="link" to="/pizza"> <span id={props.pizza}>Pizza 🍕</span> </Link>
 
-      <Link className="fonte" id="link" to="/hamburguer"> <span id={props.hamburguer}>Disney 🛫</span> </Link>
+      <Link className="fonte" id="link" to="/hamburguer"> <span id={props.hamburguer}>Hamburguer 🍔</span> </Link>
 
-      <Link className="fonte" id="link" to="/contato"> <span id={props.contato}>New York 🛬</span> </Link>
+      <Link className="fonte" id="link" to="/contato"> <span id={props.contato}>Contato 📲</span> </Link>
     </nav>
   );
 }
