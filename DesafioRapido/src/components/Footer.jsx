@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom"
 import logoinstagram from "../assets/instagram.png";
 import logofacebook from "../assets/facebook.png";
 import logoG3 from "../assets/logoG3.png";
@@ -15,19 +16,19 @@ function Footer() {
             <section className="info">
               {/*classe para deixar o nome do lado da logo */}
               <img className="imgRedes" src={logoinstagram} />
-              <p> @avocados_viajantes</p>
+              <p> @avocados_sabor</p>
             </section>
 
             <section className="info">
               <img className="imgRedes" src={logofacebook} />
-              <p> AvocadosViajantes</p>
+              <p> AvocadosSabor</p>
             </section>
 
           </section>
 
           <section className="contato">
             <p> 📞 Contado para Vendas: (19) 91234-1234</p>
-            <p> 📩 Email para Contato: avocados.viajantes@gmail.com</p>
+            <p> 📩 Email para Contato: avocados.sabor@gmail.com</p>
           </section>
 
         </section>
@@ -36,11 +37,10 @@ function Footer() {
 
           <section className="sobreNos">
             <p>
-              <h4> 🏢 Sobre a Empresa </h4> Nós somos uma empresa de viagem que
-              procura o melhor destino para nossos clientes, de acorodo com seus
-              gostos! Somos uma equipe de 6 pessoas que adoram conhecer o mundo,
-              e dessa forma espalhamos conhecimentos para os que tambem são
-              interresados nessa aréa!
+              <h4> 🏢 Sobre a Empresa </h4> Nós somos uma empresa de entregas que
+              procura realiazas as melhores entregas para nossos clientes, de acordo com suas
+              localizações! Somos uma equipe de 6 pessoas que adoram comidas do mundo,
+              e dessa forma buscamos levar a culinariapara os que tambem estão longe!
             </p>
           </section>
 
@@ -48,71 +48,59 @@ function Footer() {
 
             <h4> 📍 Principais Destinos</h4>
 
-            <a href="http://localhost:5173/interlaken-suica" target="_blank"> ⛰️ Suiça </a>
+            <a href="https://www.vinhedo.sp.gov.br/" target="_blank"> 🍇 Vinhedo </a>
 
             <br />
 
-            <a href="http://localhost:5173/paris-franca" target="_blank"> 🥐 Paris </a>
+            <a href="https://www.valinhos.sp.gov.br/" target="_blank"> ✨ Valinhos </a>
 
             <br />
 
-            <a href="http://localhost:5173/disney-eua" target="_blank"> 🏰 Disney Word </a>
+            <a href="https://campinas.sp.gov.br/" target="_blank"> 🍊 Campinas </a>
 
             <br />
 
-            <a href="http://localhost:5173/newyork-eua" target="_blank"> 🗽 Nova York </a>
+            <a href="https://www.louveira.sp.gov.br/" target="_blank"> 🌭 Louveira </a>
 
           </section>
 
           <section className="listas">
 
-            <h4> ✈️ Companhias Aéreas Internacionais </h4>
+            <h4> 🍳 Recomendações </h4>
 
-            <a href="https://www.flytap.com/pt-br" target="_blank"> Tap Air </a>
-
-            <br />
-
-            <a href="https://www.copaair.com/pt-br/" target="_blank"> Copa Airlines </a>
+            <Link id="link" to="/macarrao" target="_blank"> Macarrão </Link>
 
             <br />
 
-            <a href="https://wwws.airfrance.com.br/" target="_blank"> Air France </a>
+            <Link id="link" to="/pizza" target="_blank"> Pizza </Link>
 
             <br />
 
-            <a href="https://www.aa.com.br/homePage.do?locale=pt_BR" target="_blank"> American Arlines </a>
-
-            <br />
-
-            <a href="https://www.airchina.com.br/BR/PO/Home" target="_blank"> Air China </a>
-
-            <br />
-
-            <a href="https://www.emirates.com/br/portuguese/" target="_blank"> Emirates </a>
+            <Link id="link" to="/hamburguer" target="_blank"> Hambúrguer </Link>
 
           </section>
 
           <section className="listas">
 
-            <h4> ✈️ Companhias Aéreas Nacionais </h4>
+            <h4> 🛒 Principais Restaurantes </h4>
 
-            <a href="https://www.voeazul.com.br/br/pt/home" target="_blank"> Azul </a>
-
-            <br />
-
-            <a href="https://www.voegol.com.br/" target="_blank"> VoeGol </a>
+            <a href="https://www.mcdonalds.com.br/" target="_blank"> McDonald's </a>
 
             <br />
 
-            <a href="https://www.latamairlines.com/br/pt" target="_blank"> Latam </a>
+            <a href="https://www.burgerking.com.br/" target="_blank"> Burguer King </a>
 
             <br />
 
-            <a href="https://www.voepass.com.br/empresa/site/" target="_blank"> VoePass </a>
+            <a href="https://pizzahut.com.br/" target="_blank"> Pizza Hut </a>
 
             <br />
 
-            <a href="https://www.avianca.com/pt/" target="_blank"> Avianca </a>
+            <a href="https://www.smokeysburger.com.br/smokeysburguerbar/smokeysburguerbar?dd=menu" target="_blank"> Smokeys Burguer </a>
+
+            <br />
+
+            <a href="https://www.macarronada.com.br/" target="_blank"> Macarronada Italiana </a>
 
           </section>
           
