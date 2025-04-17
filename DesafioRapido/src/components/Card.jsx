@@ -1,6 +1,6 @@
 import "./Card.css"
 function Card(props){
-    return(
+    return( 
         <>
         <section className="Blocao">
 
