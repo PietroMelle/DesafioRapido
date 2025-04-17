@@ -3,16 +3,19 @@ import "./NavBar.css";
 
 function Navbar(props) {
   return (
+
     <nav className="blocoNav">
+
       <Link className="fonte" id="link" to="/"> <span id={props.home}>Home 🏡</span> </Link>
 
-      <Link className="fonte" id="link" to="/interlaken-suica"> <span id={props.suica}>Suiça 🛫</span> </Link>
+      <Link className="fonte" id="link" to="/macarrao"> <span id={props.macarrao}>Macarrão 🍝</span> </Link>
 
-      <Link className="fonte" id="link" to="/paris-franca"> <span id={props.franca}>França 🛬</span> </Link>
+      <Link className="fonte" id="link" to="/pizza"> <span id={props.pizza}>Pizza 🍕</span> </Link>
 
-      <Link className="fonte" id="link" to="/disney-eua"> <span id={props.disney}>Disney 🛫</span> </Link>
+      <Link className="fonte" id="link" to="/hamburguer"> <span id={props.hamburguer}>Hambúrguer 🍔</span> </Link>
 
-      <Link className="fonte" id="link" to="/newyork-eua"> <span id={props.newyork}>New York 🛬</span> </Link>
+      <Link className="fonte" id="link" to="/contato"> <span id={props.contato}>Contato 📲</span> </Link>
+      
     </nav>
   );
 }

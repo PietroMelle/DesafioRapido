@@ -1,40 +1,43 @@
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navbar from "../components/NavBar"
+import Navbar from "../components/NavBar";
 
 function Page3() {
   return (
     <>
       <Header />
-      <Navbar disney="ativo"/>
+      <Navbar hamburguer="ativo" />
 
       <br />
       <br />
 
       <center>
-      <section className="tituloECard">
-        <h1> Disney </h1>
-        <img src="https://www.gov.br/agricultura/pt-br/assuntos/relacoes-internacionais/agro-mais-investimentos/imagens/bandeira-dos-estados-unidos.png/@@images/image.png" alt="Estados Unidos" />
+
+        <section className="tituloECard">
+          <h1> Hambúrguer </h1>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png"
+            alt="Alemanha"
+          />
         </section>
+
         <Card
-          Foto="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2021/02/comemoracao-disney-e1614010798887.jpg?w=750"
-          Titulo="Disney - Estados Unidos"
-          Descricao="A Disney é um lugar mágico onde sonhos ganham vida! Com parques temáticos incríveis, personagens encantados 
-          e atrações para todas as idades, oferece experiências inesquecíveis para toda a família. Seja em Orlando, Paris, 
-          Tóquio ou outras localizações, a Disney é um destino perfeito para quem busca diversão, aventura e momentos de pura fantasia."
-          Estrelas="⭐⭐⭐⭐⭐"
-          Valor="Valor: 4.895,00"
+          Foto="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2020/05/28/shutterstock1471297691-768x539.jpg"
+          Titulo="Hambúrguer"
+          Descricao="Duas carnes suculentas, cobertas com cheddar derretido e queijo prato, combinadas com bacon crocante e um creme especial 
+          que dá o toque final. Servido em um pão macio e tostado, é a pedida certa pra quem busca sabor sem limites."
+
+          Valor="Valor: R$ 105,50"
           Proximo="Proximo"
-          Link="http://localhost:5173/newyork-eua"
+          Link="http://localhost:5173/contato"
         />
       </center>
 
       <br />
       <br />
-      <br />
 
-      <Footer />
+      <Footer />     
     </>
   );
 }

@@ -15,12 +15,11 @@ function Card(props){
             <p>{props.Descricao}</p>
             </section>
 
-            <section className="Estrelas">
-            <p>{props.Estrelas}</p>
-            </section>
-
             <section className="Valor">
-            <p>{props.Valor}</p>
+            <p> <strong> {props.Valor} </strong> </p>
+            <p>{props.Valor1}</p>
+            <p>{props.Valor2}</p>
+            <p>{props.Valor3}</p>
             </section>
 
            <section className="BoxBotao">  
