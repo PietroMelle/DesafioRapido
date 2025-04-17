@@ -13,7 +13,7 @@ function Header() {
             <header className="headerBox">
                 <img className="logoHeader" src={logo} alt="Grupo03" />
                 <h1>Avocado & Sabor</h1>
-                <a href="https://github.com/vitorcecato-sesi/desafio2-react-routes" target="_blank" rel="Link Github Projeto">
+                <a href="https://github.com/PietroMelle/DesafioRapido" target="_blank" rel="Link Github Projeto">
                     <img className="imgGithub" src={ImgGitHub} alt="Logo Github" />
                 </a>
             </header>
