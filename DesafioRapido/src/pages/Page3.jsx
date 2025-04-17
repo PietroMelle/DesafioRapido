@@ -27,7 +27,7 @@ function Page3() {
           Titulo="Hambúrguer"
           Descricao="Duas carnes suculentas, cobertas com cheddar derretido e queijo prato, combinadas com bacon crocante e um creme especial 
           que dá o toque final. Servido em um pão macio e tostado, é a pedida certa pra quem busca sabor sem limites."
-          Estrelas="⭐⭐⭐⭐⭐"
+
           Valor="Valor: R$ 105,50"
           Proximo="Proximo"
           Link="http://localhost:5173/contato"
