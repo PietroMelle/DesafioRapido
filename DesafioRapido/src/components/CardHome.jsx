@@ -1,10 +1,6 @@
 import "./CardHome.css";
-import { useState } from "react";
 
 function Card (props) {
-
-
-   
 
   return (
     <>
@@ -16,19 +12,16 @@ function Card (props) {
                 <p>{props.breveDescricao}</p>
             </section>
             <section className="blocoCard2">
-                <button className="botaoCurtida" onClick={curtindo}>{curtir} <span>{contaCurtida}</span></button>
-                <p>{props.estrela}</p>
+                
             </section>
-            <a href={props.direcionar} target="_blank" className="explorar">Detalhes </a>
+            <center>
+            <a href={props.direcionar} target="_blank" className="explorar"><strong>Detalhes</strong> </a>
+            </center>
             <p className="valor">{props.valor}</p>
         </section>
-        
-        <a href={props.direcionar} target="_blank" className="explorar"> Detalhes </a>
-        <p className="valor">{props.valor}</p>
-
-      </section>
     </>
   );
 }
 
 export default Card;
+
