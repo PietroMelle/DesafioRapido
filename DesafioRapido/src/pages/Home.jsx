@@ -31,7 +31,7 @@ function Home(){
                     breveDescricao= "Macarrão cremoso, cheio de sabor e feito com aquele toque especial.
 Bateu a fome? Pede o seu e deixa a gente cuidar do resto! 🍝"
                     direcionar= "http://localhost:5173/interlaken-suica"
-                    estrela= "⭐⭐⭐⭐⭐"
+    
                 />
 
                 <Card
@@ -40,7 +40,7 @@ Bateu a fome? Pede o seu e deixa a gente cuidar do resto! 🍝"
                     breveDescricao= "Massa leve, borda crocante e recheio que transborda sabor.
 A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
                     direcionar= "http://localhost:5173/paris-franca"
-                    estrela = "⭐⭐⭐⭐"
+                  
                 />
 
                 <Card
@@ -49,7 +49,7 @@ A pizza dos seus sonhos tá só a um pedido de distância! 🍕"
                     breveDescricao= "Hambúrguer suculento, queijo derretendo e muito sabor em cada mordida.
 Pede agora e deixa a explosão de sabor chegar até você! 🍔"
                     direcionar= "http://localhost:5173/disney-eua"
-                    estrela= "⭐⭐⭐⭐⭐"
+                   
                 />
 
                
