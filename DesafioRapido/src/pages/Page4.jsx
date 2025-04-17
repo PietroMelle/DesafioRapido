@@ -23,10 +23,6 @@ function Page4() {
     localStorage.setItem("pedido", JSON.stringify(pedido));
   }, [nome,email,genero,escolaridade,telefone,pedido]);
 
-  useEffect(() => {
-    console.log(pedido)
-  })
-
   function handleSubmit(e) {
     e.preventDefault(); //pausa e só vai para a próxima fase se estiver tudo 100% ok
     alert(`Cadastro feito!
@@ -39,7 +35,7 @@ function Page4() {
   }
 
   function escolherPrato(e) {
-    const prato = e.target.value
+    const prato = e.target.value 
     const encontrarPrato = pedido.find(pratoArray => pratoArray === prato)
     if (encontrarPrato) {
       const novosPratos = pedido.filter((conteudo) => conteudo !== prato)
