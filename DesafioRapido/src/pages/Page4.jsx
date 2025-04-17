@@ -58,6 +58,8 @@ function Page4() {
           <h1> Contato 👤 </h1>
         </section>
 
+        <br/>
+
         <section className="contatoCard">
           <form onSubmit={handleSubmit}>
             Nome:
