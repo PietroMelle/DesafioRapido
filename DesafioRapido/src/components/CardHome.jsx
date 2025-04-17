@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CardHome.css";
 
 function Card (props) {
@@ -15,7 +16,7 @@ function Card (props) {
                 
             </section>
             <center>
-            <a href={props.direcionar} target="_blank" className="explorar"><strong>Detalhes</strong> </a>
+            <Link to={props.direcionar} className="explorar"><strong>Detalhes</strong> </Link>
             </center>
             <p className="valor">{props.valor}</p>
         </section>
