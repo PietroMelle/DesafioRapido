@@ -30,7 +30,6 @@ function Pagina2() {
           Titulo="Paris - França"
           Descricao="Massa leve e borda crocante, coberta com molho de tomate fresco, queijo derretido e folhas de manjericão. Um clássico italiano 
           que une simplicidade, frescor e sabor em cada fatia."
-          Estrelas="⭐⭐⭐⭐⭐"
           Valor="Valores"
           Valor1="Pequena (4 Pedaços): R$ 89,90"
           Valor2="Média (6 Pedaços): R$ 139,90"

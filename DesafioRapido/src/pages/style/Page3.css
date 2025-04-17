@@ -17,3 +17,17 @@
     justify-content: center;
     flex-direction: row;
 }
+
+.tituloECard h1:hover {
+    color: #BF2626;
+    transform: scale(1.05);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.tituloECard img:hover {
+    color: #BF2626;
+    transform: scale(1.05);
+    transition: 0.8s;
+    cursor: pointer;
+}

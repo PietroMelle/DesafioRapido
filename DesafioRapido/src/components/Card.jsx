@@ -15,10 +15,6 @@ function Card(props){
             <p>{props.Descricao}</p>
             </section>
 
-            <section className="Estrelas">
-            <p>{props.Estrelas}</p>
-            </section>
-
             <section className="Valor">
             <p> <strong> {props.Valor} </strong> </p>
             <p>{props.Valor1}</p>
