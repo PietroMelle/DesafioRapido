@@ -31,7 +31,6 @@ function Page1() {
           Descricao="Um clássico da culinária italiana com um toque especial. A massa al dente é envolta em um molho rústico de tomates maduros e 
           finalizada com pedaços generosos de bacon crocante, que acrescentam sabor defumado e marcante. A cebolinha fresca e o tomate-cereja 
           completam a apresentação com frescor e sofisticação."
-          Estrelas="⭐⭐⭐⭐⭐"
           Valor="Valor: R$ 234,90"
           Proximo="Proximo"
           Link="http://localhost:5173/pizza"
