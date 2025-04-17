@@ -27,7 +27,7 @@ function Pagina2() {
 
         <Card
           Foto="https://forbes.com.br/wp-content/uploads/2021/07/Life_Dia-da-Pizza-Veridiana-Margherita_8julho2021_Divulgacao.jpg"
-          Titulo="Paris - França"
+          Titulo="Pizza"
           Descricao="Massa leve e borda crocante, coberta com molho de tomate fresco, queijo derretido e folhas de manjericão. Um clássico italiano 
           que une simplicidade, frescor e sabor em cada fatia."
           Valor="Valores"
