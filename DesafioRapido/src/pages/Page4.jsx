@@ -37,10 +37,12 @@ function Page4() {
   function escolherPrato(e) {
     const pratoSelecionado = e.target.value // Valor do select escolhido (clicado)
     const encontrarPrato = pedido.find(pratoArray => pratoArray === pratoSelecionado) // Verifica se o pratoSelecionado está na array (armazendando true se tiver ou false se não tiver)
+    
     if (encontrarPrato) { // Se for true => tiver na array
       const novosPratos = pedido.filter((conteudo) => conteudo !== pratoSelecionado)  // Cria uma nova array (filtra) com a condição indicada, no caso, se o prato for diferente do prato escolhido
       setPedido(novosPratos)  // Salvar na variável
-    } else {  // Se for false => não tiver na array
+    }
+    else {  // Se for false => não tiver na array
       const novosPratos = [...pedido, pratoSelecionado] // Criar uma nova array com o prato selecionado
       setPedido(novosPratos)  // Salvar na variável
     }
@@ -143,13 +145,13 @@ function Page4() {
               Escolha seu Prato: 
               <br/>
               <input type="checkbox" value="Pedido1" onChange={(e) => escolherPrato(e)}/>
-              <label> Prato 1 </label>
+              <label> Macarrão </label>
               <br/>
               <input type="checkbox" value="Pedido2" onChange={(e) => escolherPrato(e)}/>
-              <label> Prato 2</label>
+              <label> Pizza </label>
               <br/>
               <input type="checkbox" value="Pedido3" onChange={(e) => escolherPrato(e)}/>
-              <label> Prato 3 </label>
+              <label> Hambúrguer </label>
             </label>
 
             <br />
