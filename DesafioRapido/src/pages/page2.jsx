@@ -8,22 +8,26 @@ function Pagina2 () {
     return (
       <>
       <Header />
-      <Navbar franca="ativo"/>
+      <Navbar pizza="ativo"/>
       <br />
       <br />
       <center>
       <section className="tituloECard">
-        <h1> França </h1>
-        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-franca-bandeira_53876-27099.jpg" alt="França" />
+        <h1> Pizza </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png" alt="Itália" />
         </section>
       <Card 
-       Foto="https://img.static-af.com/transform/45cb9a13-b167-4842-8ea8-05d0cc7a4d04/"
+       Foto="https://forbes.com.br/wp-content/uploads/2021/07/Life_Dia-da-Pizza-Veridiana-Margherita_8julho2021_Divulgacao.jpg"
        Titulo="Paris - França"
-       Descricao="Paris, a capital da França, é famosa por sua beleza e cultura. A Torre Eiffel, o Louvre e a Catedral de Notre-Dame são ícones da cidade. Com seus cafés e restaurantes, Paris é um paraíso gastronômico. A cidade é um centro de arte, moda e história. Seu charme romântico atrai visitantes de todo o mundo."
-       Estrelas="⭐⭐⭐⭐"
-       Valor="Valor: R$ 5000,00"
+       Descricao="Massa leve e borda crocante, coberta com molho de tomate fresco, queijo derretido e folhas de manjericão. Um clássico italiano 
+       que une simplicidade, frescor e sabor em cada fatia."
+       Estrelas="⭐⭐⭐⭐⭐"
+       Valor="Valores"
+       Valor1="Pequena (4 Pedaços): R$ 89,90"
+       Valor2="Média (6 Pedaços): R$ 139,90"
+       Valor3="Grande (8 Pedaços): R$ 189,90"
        Proximo='Proximo'
-       Link="http://localhost:5173/disney-eua"
+       Link="http://localhost:5173/hamburguer"
       />
   </center>
   <br/>

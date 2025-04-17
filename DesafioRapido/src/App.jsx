@@ -20,10 +20,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/interlaken-suica' element={<Pagina1 />}/>
-          <Route path='/paris-franca' element={<Pagina2 />} />
-          <Route path='/disney-eua' element={<Page3 />} /> 
-          <Route path='/newyork-eua' element={<Page4/>} />         
+          <Route path='/macarrao' element={<Pagina1 />}/>
+          <Route path='/pizza' element={<Pagina2 />} />
+          <Route path='/hamburguer' element={<Page3 />} /> 
+          <Route path='/contato' element={<Page4/>} />         
         </Routes>
       </BrowserRouter>
 

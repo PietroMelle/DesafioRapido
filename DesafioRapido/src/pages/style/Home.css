@@ -10,7 +10,9 @@
     width: 99vw;
     height: 40vh;
 
-    background-image: url("../../assets/banner.png");
+    background-image: url("https://www.lojabrazil.com.br/blog/wp-content/uploads/2022/08/capa-imagem-blog-chef-de-cozinha1683-x-716-px.png");
+    background-size: cover;
+    background-position: 0 90%;
     color: white;
 }
 

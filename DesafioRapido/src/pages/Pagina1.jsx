@@ -8,22 +8,24 @@ function Pagina1 () {
     return (
       <>
       <Header/>
-      <Navbar suica="ativo"/>
+      <Navbar macarrao="ativo"/>
       <br />
       <br />
       <center>
         <section className="tituloECard">
-        <h1> Suiça </h1>
-        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-suica-bandeira_53876-27100.jpg?semt=ais_hybrid" alt="Suiça" />
+        <h1> Macarrão </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png" alt="Itália" />
         </section>
       <Card 
-       Foto="https://www.travelmate.com.br/wp-content/uploads/2024/01/Chateau-dOex-Suica-1024x767.png"
-       Titulo="Interlaken - Suiça"
-       Descricao="Interlaken é uma cidade na Suíça, entre os lagos Thun e Brienz, cercada pelos Alpes. É conhecida por suas paisagens deslumbrantes e atividades ao ar livre, como passeios de balão, caminhadas e esportes de aventura. Um lugar perfeito para quem busca beleza natural e tranquilidade."
+       Foto="https://pubimg.band.uol.com.br/files/b28b567bb0fe51168a8f.png"
+       Titulo="Macarrão"
+       Descricao="Um clássico da culinária italiana com um toque especial. A massa al dente é envolta em um molho rústico de tomates maduros e 
+       finalizada com pedaços generosos de bacon crocante, que acrescentam sabor defumado e marcante. A cebolinha fresca e o tomate-cereja 
+       completam a apresentação com frescor e sofisticação."
        Estrelas="⭐⭐⭐⭐⭐"
-       Valor="Valor: R$ 4.569.20"
+       Valor="Valor: R$ 234,90"
        Proximo='Proximo'
-       Link = "http://localhost:5173/paris-franca"
+       Link = "http://localhost:5173/pizza"
       />
   </center>
   <br></br>
