@@ -144,13 +144,13 @@ function Page4() {
             <label>
               Escolha seu Prato: 
               <br/>
-              <input type="checkbox" value="Pedido1" onChange={(e) => escolherPrato(e)}/>
+              <input type="checkbox" value="Macarrão" onChange={(e) => escolherPrato(e)}/>
               <label> Macarrão </label>
               <br/>
-              <input type="checkbox" value="Pedido2" onChange={(e) => escolherPrato(e)}/>
+              <input type="checkbox" value="Pizza" onChange={(e) => escolherPrato(e)}/>
               <label> Pizza </label>
               <br/>
-              <input type="checkbox" value="Pedido3" onChange={(e) => escolherPrato(e)}/>
+              <input type="checkbox" value="Hambúrguer" onChange={(e) => escolherPrato(e)}/>
               <label> Hambúrguer </label>
             </label>
 
